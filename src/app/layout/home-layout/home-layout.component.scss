@@ -1,0 +1,71 @@
+
+mat-toolbar {
+  background: #004a9f;
+  color: white;
+}
+
+mat-sidenav {
+  width: 200px;
+  border-right: none;
+  background: #002b5c;
+  color: white;
+  text-align: center;
+}
+
+.content {
+  height: calc(100vh - 130px);
+  overflow: auto;
+}
+
+mat-sidenav-container {
+  // height: calc(100vh - 65px);
+  height: 100vh;
+}
+
+.menu-button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1rem;
+
+  mat-icon {
+    margin-right: 8px;
+  }
+}
+
+.avatar {
+  margin-top: 16px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.name {
+  font-weight: normal;
+}
+
+.designation {
+  margin-top: 2px;
+  font-size: 0.7rem;
+  color: lightgrey;
+}
+
+mat-divider {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.org-profile-container{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.organizatio-photo{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
