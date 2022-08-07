@@ -6,14 +6,18 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { MatDividerModule } from '@angular/material/divider';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import {MatSelectModule} from '@angular/material/select';
+import {MatFormFieldModule} from '@angular/material/form-field';
 const materialModules = [
   MatButtonModule,
   MatToolbarModule,
   MatIconModule,
   MatSidenavModule,
   MatDividerModule,
-  FlexLayoutModule
-]
+  FlexLayoutModule,
+  MatSelectModule,
+  MatFormFieldModule
+];
 
 @NgModule({
   declarations: [],

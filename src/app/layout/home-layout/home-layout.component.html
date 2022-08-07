@@ -1,11 +1,21 @@
 <mat-sidenav-container>
   <mat-sidenav #sidenav="matSidenav" opened mode="side">
-    <div class="align-items-center d-flex justify-content-evenly">
+    <div class="align-items-center d-flex justify-content-evenly mt-3">
       <img
-      class="mat-elevation-z8 organizatio-photo"
+      class="mat-elevation-z8 organization-photo"
       src="https://source.unsplash.com/c_GmwfHBDzk/100x100"
       />
-      <h4 class="org-name">John Smith</h4>
+      <h6 class="org-name mb-0">John Smith</h6>
+      <mat-icon>keyboard_arrow_right</mat-icon>
+    </div>
+
+    <div class="align-items-center d-flex justify-content-evenly mt-3">
+      <!-- <mat-form-field appearance="fill"> -->
+        <mat-select [(value)]="currentFinancialYear" class="">
+          <mat-option></mat-option>
+          <mat-option [value]="fyYear" *ngFor="let fyYear of finacialYears">{{ fyYear }}</mat-option>
+        </mat-select>
+      <!-- </mat-form-field> -->
     </div>
     <mat-divider></mat-divider>
 
