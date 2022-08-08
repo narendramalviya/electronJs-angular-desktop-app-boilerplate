@@ -11,6 +11,7 @@ export class HomeLayoutComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    console.log('HomeLayoutComponent---');
   }
 
 }
